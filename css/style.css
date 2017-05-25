@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500');
+
 *{
 	box-sizing: border-box;
 	padding: 0;
@@ -9,6 +11,14 @@
 
 body {
 	background-color: yellow;
+	font-family: 'Oswald', sans-serif;
+
+}
+h2 {
+	background-color: orange;
+	margin: 20px 0;
+	padding: 12px;
+
 }
 nav ul {
 	padding: 20px; 
@@ -50,10 +60,28 @@ nav a:hover {
 	background-color: #fff;
 	padding: 20px;
 	margin: 20px;
+	/*text-align: center;*/
 }
 .img-half{
 	width: 50%; 
 	display:block;
 	margin: 10px auto;
+
 }
 
+/* these are utility classes
+=========================== */
+
+.center-text {
+ text-align: center;
+}
+
+.about-header{
+	padding: 400px 20px;
+	background-image: url("../images/bread.jpeg");
+	background-size: cover;
+	background-position: center;
+	color : black;
+	text-align: center;
+
+}
