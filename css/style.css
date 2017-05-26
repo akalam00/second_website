@@ -60,6 +60,7 @@ nav a:hover {
 	background-color: #fff;
 	padding: 20px;
 	margin: 20px;
+	font-size: 20px;
 	/*text-align: center;*/
 }
 .img-half{
@@ -85,3 +86,14 @@ nav a:hover {
 	text-align: center;
 
 }
+label {
+	display: block;
+}
+
+.contact-header{
+	padding: 400px 20px;
+	background-image: url("../images/field.jpeg");
+	background-size: cover;
+	background-position: center;
+	color : black;
+	text-align: center;
