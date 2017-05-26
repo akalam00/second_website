@@ -97,3 +97,27 @@ label {
 	background-position: center;
 	color : black;
 	text-align: center;
+
+	 * {
+  box-sizing: border-box;
+}
+.row {
+  background: green;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-1-2 {
+  background: white;
+  margin: 1%;
+  float: left;
+  width: 48%;
+  padding: 10px;
+}
+.col-1-4 {
+  width: 25%;
+  float: left;
+}
+
